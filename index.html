@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4LQ4fR3XzGJqSmoJJSy-lcVoF9LqlPALvtzgMO2fGNu1HMhq4OeIU8W3DxLAZH_pYgo&usqp=CAU" type="image/x-icon">
+    <title>Sign up</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> sign up form</h1>
+    <hr>
+    <br>
+    <label for="user">Name:</label>
+    <input type="text" id="user" name="user" placeholder="username" ><br><br>
+    <label for="email">E-mail: </label>
+    <input type="email" id="email" name="email" placeholder="user email" required><br><br>
+    <label for="password"> password:  </label>
+    <input type="password" id="password" name="password" placeholder="password"><br><br>
+    <label for="phn">Phone: </label>
+    <select name="code" id="">
+        <option value="">+880</option>
+        <option value="">+990</option>
+        <option value="">+110</option>
+    </select>
+    <input type="number" id="phn" name="phn" placeholder="0123456789" required><br><br>
+    <label for="gnd"> Gender: </label>
+    <input type="radio" name="gnd" id="gnd">
+    <label for="gnd">Male</label>
+    <input type="radio" name="gnd" id="gnd2">
+    <label for="gnd2">Female</label><br><br>
+    <label for="con"> Country: </label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bnagladesh"> Bnagladesh</option>
+        <option value="male">Male</option>
+        <option value="nepal">nepal</option>
+    </datalist>
+    <br><br><label for="date" id="date" name="dob">Date of Birth: </label>
+    <input type="date" required><br><br>
+    <label for="time">Time: </label>
+    <input type="time" id="time" name="tm"> <br><br>
+     <label for="color">Color:  </label> <input type="color"><br><br>
+     <label for="photo">Your photo: </label>
+     <input type="file" id="photo" name="photo"><br><br>
+     <input type="checkbox" id="v1" name="vec"><label for="v1">i have bike</label> <input type="checkbox" name="vec2" id="v2"><label for="v2">i have bicycle</label><br>
+     <textarea name="comment" id="c" cols="30" rows="10" placeholder="comment here"></textarea>
+     <br><br>
+     <!-- <button value="send">submit</button> <br> -->
+     <input type="submit" value="send"> 
+     <input type="reset" value="reset">
+</body>
+</html>
